@@ -1,0 +1,66 @@
+/* ===== NAVBAR ===== */
+.top-nav {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Logo */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+/* Menu */
+.nav-menu {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #334155;   /* màu xám xanh */
+  font-weight: 600;
+  font-size: 16px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.nav-menu a:hover {
+  color: #2563eb;
+  background: #eff6ff;
+}
+
+/* Active page */
+.nav-menu a.active {
+  color: #2563eb;
+  background: #dbeafe;
+}
+
+/* Nút đăng nhập */
+.login-btn {
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: #2563eb;
+  color: white !important;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.login-btn:hover {
+  background: #1e40af;
+}
